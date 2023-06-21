@@ -30,3 +30,9 @@ Add filename to the staging area
 Add all the files in the correct directory to the staging area
 
 `git add .`
+
+Create a new commit
+`git commit -m "<message>"`
+
+Show a list of commits in reverse chronological order
+`git log`
