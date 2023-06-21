@@ -36,3 +36,35 @@ Create a new commit
 
 Show a list of commits in reverse chronological order
 `git log`
+
+##Branches
+
+List the branches
+`git branch`
+
+Create a branch
+`git branch <new_branch_name>`
+
+Switch branches
+`git switch <branch_name>`
+
+Create + Switch
+`git checkout -b <branch_name>`
+
+Integrate changes from one branch into another branch 
+`git merge <branch>`    You, 1 second ago * Uncommited changes
+
+
+##Cone a Git remote repository
+
+Clonar un repositorio remoto
+`git clone <git https | ssh>`
+
+Listar repositorios remotos
+`git remote -v`
+
+Jalar cambios desde el repositorio remoto
+`git pull origin <branch_name>` 
+
+Enviar mis cambios al repositorio remoto
+`git push origin <branch_name>`
